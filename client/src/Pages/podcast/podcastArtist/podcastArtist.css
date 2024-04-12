@@ -1,0 +1,21 @@
+.podartist-container {
+  width: 67vw;
+  height: 70vh;
+  overflow-y: scroll;
+}
+.background {
+  background: linear-gradient(
+    177deg,
+    rgba(50, 79, 157, 1) 0%,
+    rgba(4, 10, 27, 1) 100%
+  );
+}
+.background2 {
+  background: rgb(4, 10, 27);
+  background: linear-gradient(
+    180deg,
+    rgba(4, 10, 27, 1) 0%,
+    rgba(14, 33, 83, 1) 50%,
+    rgba(10, 24, 62, 1) 100%
+  );
+}

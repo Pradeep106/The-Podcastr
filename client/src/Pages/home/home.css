@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #1e1958;
+  --font-size: 16px;
+  --main-balck: #071022;
+  --dark-black:#040A1B;
+  --background-color: linear-gradient(
+    31deg,
+    rgba(23, 3, 56, 1) 0%,
+    rgba(29, 4, 87, 1) 43%,
+    rgba(22, 6, 81, 1) 100%
+  );
+}
+
+.home-container{
+  width: 100vw;
+  height:100vh;
+  background:#040A1B;
+  overflow-x: hidden;
+}
+@media (max-width: 768px) {
+  .nav {
+    justify-content: space-around;
+  }
+  li {
+    display: none;
+  }
+  .menu {
+    display: inline-block;
+  }
+  .home-container{
+    height:fit-content;
+  }
+}

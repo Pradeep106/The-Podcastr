@@ -1,0 +1,13 @@
+.audio-player {
+  width: 100vw;
+  background: #040a1b;
+  height: 15vh;
+}
+.inner {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.volume {
+  width: 120px;
+}

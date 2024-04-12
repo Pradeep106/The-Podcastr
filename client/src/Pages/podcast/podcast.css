@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #1e1958;
+  --font-size: 16px;
+  --main-balck: #071022;
+  --dark-black: #040a1b;
+  --background-color: linear-gradient(
+    177deg,
+    rgba(26, 2, 59, 1) 0%,
+    rgba(14, 11, 43, 1) 43%,
+    rgba(4, 10, 27, 1) 100%
+  );
+}
+.podcast-container {
+  width: 100vw;
+  height: 100vh;
+  font-size: 10px;
+}
+.playlist-container {
+  width: 25vw;
+  height: 85vh;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+.podcast-hero-container {
+  width: 75vw;
+  height: 85vh;
+  background: var(--background-color);
+}
+.podcast-box {
+  width: 90%;
+}
+.podcast-artist {
+  /* width: 100%; */
+  height: fit-content;
+  overflow-x: scroll;
+}
+.overlay-artist {
+  background: rgba(11, 7, 37, 0.683);
+  display: none;
+  transition: all ease-in 1s;
+}
+.artist-play {
+  display: none;
+  transition: all ease-in 1s;
+}
+.artist-box:hover .overlay-artist,
+.artist-box:hover .artist-play {
+  display: inline;
+  transition: all ease-in 1s;
+}
+.player-container {
+  width: 100vw;
+  height: 10vh;
+  background-color: #040a1b;
+}
+
+.overlay-custom {
+  background: rgba(11, 7, 37, 0.7);
+  display: none;
+}
+.custom-container:hover .overlay-custom ,
+.custom-container:hover .artist-play {
+  display: inline-block;
+  transition: all ease-in 1s;
+}

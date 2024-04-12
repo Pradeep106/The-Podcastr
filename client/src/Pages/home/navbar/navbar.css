@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+.logo {
+  color: white;
+  font-size: larger;
+  font: bold;
+  font-weight: 700;
+}
+
+.box {
+  border: 2px solid red;
+}
+.menu {
+  display: none;
+}
+.link-container {
+  display: flex;
+}
+.text-li {
+  color: white;
+}
+li {
+  padding: 0.5rem 2rem;
+}
+.text-li:hover {
+  background-color: var(--main-color);
+  padding: 0.5rem 2rem;
+  border-radius: 100px;
+  transition: all 5s linear ease-in;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: inline-block;
+  }
+}

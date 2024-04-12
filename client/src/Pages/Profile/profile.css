@@ -1,0 +1,18 @@
+.background-greadient {
+  background: rgb(7, 16, 34);
+  background: linear-gradient(
+    0deg,
+    rgba(7, 16, 34, 1) 0%,
+    rgba(4, 10, 27, 1) 100%
+  );
+}
+.activeLink li .active {
+  color: #00a8ff;
+  border-left: 2px solid #00a8ff;
+  background-color: #0a659283;
+  padding-left: 5px; 
+  padding-right: 2rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
